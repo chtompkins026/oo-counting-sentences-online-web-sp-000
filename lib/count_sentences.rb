@@ -16,7 +16,7 @@ class String
   end
 
   def count_sentences
-    new_str = self.chars 
+    new_str = self.split(" ") 
     count = 0 
       new_str.each do |char|
         if char.sentence? || char.question? || char.exclamation?
