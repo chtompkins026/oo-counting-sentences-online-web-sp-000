@@ -21,7 +21,8 @@ class String
       new_str.each do |char|
         if char.sentence? || char.question? || char.exclamation?
         count += 1 
-      end 
+        end 
+      end
       
     count 
   end
