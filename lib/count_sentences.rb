@@ -16,9 +16,10 @@ class String
   end
 
   def count_sentences
+    new_str = self.chars 
     count = 0 
-    count += 1 if self.sentence? || self.question? || self.exclamation?
+    if self.sentence? || self.question? || self.exclamation?
     count 
   end
   
-end #end of the string class
+end #end of the string 
