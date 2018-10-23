@@ -20,4 +20,5 @@ class String
     count += 1 if self.sentence? || self.question? || self.exclamation?
     count 
   end
-end
+  
+end #end of the string class
