@@ -18,10 +18,11 @@ class String
   def count_sentences
     new_str = self.chars 
     count = 0 
-    new_str.each do |char|
-      if char.sentence? || char.question? || char.exclamation?
-      count += 1 
-    end 
+      new_str.each do |char|
+        if char.sentence? || char.question? || char.exclamation?
+        count += 1 
+      end 
+      
     count 
   end
   
