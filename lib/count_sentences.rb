@@ -4,7 +4,7 @@ class String
 
   def sentence?
     punc = [".","!"]
-    self.end_with?(punc)
+    self.end_with?(".")
   end
 
   def question?
